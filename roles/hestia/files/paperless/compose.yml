@@ -26,7 +26,7 @@
 # documentation.
 services:
   broker:
-    image: docker.io/library/redis:8@sha256:a7efd4ed5037dcfe1543c0e50b9f06293d3e88827005544bf37f381eea5f01cf
+    image: docker.io/library/redis:8@sha256:56a1737794e36c3ebe8a4544a8ab421af3ab1a6488fb2238aec228c404933fed
     restart: always
     volumes:
       - redisdata:/data
